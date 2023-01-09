@@ -1,4 +1,4 @@
-From bellsoft/eclipse-temurin:17-jdk
+From eclipse-temurin:17-jdk
 
 # Create server folder
 RUN mkdir -p /opt/server
