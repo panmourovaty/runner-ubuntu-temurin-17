@@ -1,7 +1,4 @@
-From bellsoft/liberica-runtime-container:jre-17-musl
-
-# Update
-RUN apk update && apk upgrade
+From bellsoft/eclipse-temurin:17-jdk
 
 # Create server folder
 RUN mkdir -p /opt/server
